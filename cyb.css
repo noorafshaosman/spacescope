@@ -735,8 +735,8 @@ img {
 
 .feature-card {
     position: relative;
-
-    min-height: 370px;
+    min-width: 100px;
+    min-height: 200px;
 
     padding-top: 45px;
     padding-right: 45px;
@@ -745,7 +745,7 @@ img {
 
     overflow: hidden;
 
-    background-color: #0c0c0c;
+    background-color: #291542;
 
     border-width: 1px;
     border-style: solid;
@@ -886,6 +886,7 @@ img {
 
 .statement-content {
     position: relative;
+
 
     z-index: 4;
 
@@ -1283,7 +1284,6 @@ img {
 ======================================== */
 
 .blur-reveal {
-    animation-name: blurReveal;
 
     animation-duration: 1ms;
 
